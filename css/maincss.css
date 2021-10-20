@@ -1,0 +1,341 @@
+@font-face {
+  font-family: great;
+  src: url(../GreatVibes-Regular.ttf);
+}
+@media(max-width: 768px) {
+  #trafficExcol ,.lastRower, .viewWone, .viewTtwo, .mainPlus{
+      display: none !important;
+      width: 0px;
+      height: 0px;
+  }
+}
+h4,h5,h6,a,div{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#mainBd{
+    background-image: url(../img/yellowstone-1730062_1920.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+#carImgf{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/thermal-spring-63080_1920.jpg);
+  }
+  #carImgs{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/20191009162441_94408.jpg);
+}
+#carImgthr{
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/350q1600000104vc420EC_C_1000_560_Q80.jpg);
+}
+#carImgfour{
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/Crater-Lake-photo-by-CEBImagery-via-Flickr-CC2-696x373.jpg);
+}
+.carousel-my {
+    position: absolute;
+    right: 15%;
+    bottom: 40%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  .carouselFontbox {
+    opacity: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s
+  }
+  .fontShow:hover +.carouselFontbox {
+    opacity: 1;
+  }
+  .opcView{
+      height: 40vh;
+  }
+  .mainEx{
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: url(../img/yellowstone-2494789_1920.jpg);
+      height: 90vh;
+  }
+  .mainExwz{
+    top: 100px;
+  }
+  .nightRow{
+      height: 33vh;
+  }
+  .nightRow>div{
+      height: 33vh;
+  }
+  .bg-yl{
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-image: url(../img/yellowstone-national-park-1760527_1920.jpg);
+  }
+  #nRfirst{
+      background-color: #000;
+  }
+  #nRfirst:hover{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/thermal-spring-63080_1920.jpg);
+  }
+  #nRtwo{
+    background-color: #000;
+}
+#nRtwo:hover{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/Yosemite_CROPPED_Web72DPI.jpg);
+}  
+#nRthree{
+    background-color: #000;
+}
+#nRthree:hover{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/aa89988589.jpg);
+}  
+#nRfour{
+    background-color: #474444;
+}
+#nRfour:hover{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/shutterstock-76268674.jpg);
+}  
+#nRfive{
+    background-color: #474444;
+}
+#nRfive:hover{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/Welcome-to-Grand-Teton-National-Park.jpg);
+}  
+#nRsix{
+    background-color: #474444;
+}
+#nRsix:hover{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/RS-The-Racetrack-at-Death-Valley-National-Park.jpg);
+}  
+#nRsev{
+    background-color: gray;
+}
+#nRsev:hover{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/Crater-Lake-photo-by-CEBImagery-via-Flickr-CC2-696x373.jpg);
+}  
+#nRegt{
+    background-color: gray;
+}
+#nRegt:hover{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/v2-a00b93816aae11b3c71ef93b40c63bc2_r.jpg);
+}  
+#nRnin{
+    background-color: gray;
+}
+#nRnin:hover{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/4CF0A96B-B3A4-D1A8-A219BBB304781D0D.jpg);
+}
+#trafficEx{
+  height: 99vh;
+}
+#trfOne,#trfTwo,#trfThree{
+  height: 33vh;
+  color: white;
+  background-color: rgba(0, 0, 0, .7);
+  transition: 1s;
+}
+#trfOne:hover,#trfTwo:hover,#trfThree:hover{
+  background-color: #fae9a4;
+      color: rgba(0, 0, 0, 0.6);
+}
+#trafficEx i{
+  transition: inherit;
+}
+#trfOne:hover i,#trfTwo:hover i,#trfThree:hover i{
+  transform: scale(1.5);
+}
+.viewRow{
+  height: 40vh;
+}
+.viewTone{
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-position-y: 70%;
+  background-size: cover;
+  background-image: url(../img/rocky-mountains-at-night-l.jpg);
+  transform: translateY();
+}
+.viewTtwo{
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 50%;
+  background-image: url(../img/F_TRACK_4.jpg);
+}
+.viewWone,.viewWtwo{
+  background-color: #f8f9fa;
+}
+.myNav{
+  background-color: #000;
+}
+
+.lastPicOne{
+  height:40vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/mule-deer-1730072_1920.jpg);
+}
+
+.lastPicTwo{
+  height:40vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/coyote-1730060_1920.jpg);
+}
+.lastPicThree{
+  height:40vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/grizzly-386340_1920.jpg);
+}
+.lastPicFour{
+  height:40vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/yellowstone-national-park-1760527_1920.jpg);
+}
+.lastWz{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  opacity: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  bottom: 0;
+  left: 0;
+  font-size: 20px;
+}
+.lastPicOne:hover .lastWz {
+  opacity: 1;
+}
+.lastPicTwo:hover .lastWz {
+  opacity: 1;
+}
+.lastPicThree:hover .lastWz {
+  opacity: 1;
+}
+.lastPicFour:hover .lastWz {
+  opacity: 1;
+}
+.myFooter{
+  background-color: #2c3144;
+  height: 25vh;
+}
+.footText{
+  color: #fff;
+  opacity: .6;
+  font-weight: 500;
+  font-size: 12px;
+}
+.footIcon{
+  display: inline-block;
+  transition: all 1s;
+  position: relative;
+  color: #fff;
+  opacity: .6;
+  width: 65px;
+  font-size: 2rem;
+  transition: 1s;
+}
+.footIcon:hover{
+  display: inline-block;
+  transition: all 1s;
+  position: relative;
+  color: #70b3f3;
+  opacity: .6;
+  width: 65px;
+  font-size: 2rem;
+  transition: 1s;
+  transform: rotate(360deg);
+}
+.nightAnimated{
+  opacity: 0;
+  transition: 1s;
+  transform: translateY(100px);
+}
+.myFadein{
+  opacity: 1;
+  transform: translateY(0);
+}
+.animatedEx{
+  opacity: 0;
+  transition: 1.5s;
+  transform: translateX(-100px);
+}
+.animatedExfif{
+  opacity: 0;
+  transition: 1.5s;
+  transform: translateX(-100px);
+}
+#viewGeological,#viewAnimals{
+  font-weight: bold;
+}
+.animatedExp{
+  opacity: 0;
+  transition: 1.5s;
+  transform: translateX(100px);
+}
+.animatedExpTwo{
+  opacity: 0;
+  transition: 1.5s;
+  transform: translateX(-100px);
+}
+.animatedExpBtn{
+  opacity: 0;
+  transition: 1.5s;
+  transform: translateY(100px);
+}
+.myFadeinX{
+  opacity: 1;
+  transform: translateX(0px);
+}
